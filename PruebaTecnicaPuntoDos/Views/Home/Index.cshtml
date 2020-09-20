@@ -1,0 +1,22 @@
+﻿@model Data
+
+    <div>
+        <h1>Generando Numeros Pares entre 50 - 500</h1>
+    </div>
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <div class="form-group">
+            <div class="row">
+                <label asp-for="n" class="col-lg-2 alert-info"></label>
+                <input type="number" asp-for="n" class="col-lg-2" />
+                <span asp-validation-for="n" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <input type="submit" value="Generar" asp-action="Index" class="alert-dark"/>
+            </div>
+            <div class="row">
+                <label asp-for="Result" class="col-lg-2 alert-info"></label>
+                <input type="text" disabled="disabled" class="col-lg-6" asp-for="Result" />
+            </div>
+
+        </div>
+    </form>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaTecnicaPuntoDos", "PruebaTecnicaPuntoDos\PruebaTecnicaPuntoDos.csproj", "{2807AA71-FE75-4F14-ABF0-52E35B4EB8A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2807AA71-FE75-4F14-ABF0-52E35B4EB8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2807AA71-FE75-4F14-ABF0-52E35B4EB8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2807AA71-FE75-4F14-ABF0-52E35B4EB8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2807AA71-FE75-4F14-ABF0-52E35B4EB8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D1DD68-23CF-4A14-A23F-33B317F33A36}
+	EndGlobalSection
+EndGlobal
